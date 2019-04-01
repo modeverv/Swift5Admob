@@ -12,6 +12,19 @@
 		1794EA81224E3BD800A12574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1794EA7F224E3BD800A12574 /* Main.storyboard */; };
 		1794EA83224E3BDB00A12574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1794EA82224E3BDB00A12574 /* Assets.xcassets */; };
 		1794EA86224E3BDB00A12574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1794EA84224E3BDB00A12574 /* LaunchScreen.storyboard */; };
+		1794EA8F224E3C9200A12574 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1794EA8E224E3C9200A12574 /* SystemConfiguration.framework */; };
+		1794EA91224E3CBE00A12574 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1794EA90224E3CBE00A12574 /* StoreKit.framework */; };
+		1794EA93224E3CDA00A12574 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1794EA92224E3CDA00A12574 /* MessageUI.framework */; };
+		1794EA96224E3CEC00A12574 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1794EA94224E3CEC00A12574 /* EventKitUI.framework */; };
+		1794EA97224E3CEC00A12574 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1794EA95224E3CEC00A12574 /* EventKit.framework */; };
+		1794EA99224E3D4600A12574 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1794EA98224E3D4600A12574 /* AVFoundation.framework */; };
+		1794EA9B224E3D5700A12574 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1794EA9A224E3D5700A12574 /* AudioToolbox.framework */; };
+		1794EA9D224E3D6700A12574 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1794EA9C224E3D6700A12574 /* AdSupport.framework */; };
+		1794EA9F224E40EA00A12574 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1794EA9E224E40EA00A12574 /* GoogleMobileAds.framework */; };
+		1794EAA1224E49A800A12574 /* InterSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EAA0224E49A800A12574 /* InterSViewController.swift */; };
+		1794EAA3224E4F2200A12574 /* VideoAdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EAA2224E4F2200A12574 /* VideoAdsViewController.swift */; };
+		1794EAA5224E557F00A12574 /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EAA4224E557F00A12574 /* startViewController.swift */; };
+		AE8BDA2BC915058DDE32DE05 /* Pods_Swift5AdMob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A89D9D7F468BEA07947AC6 /* Pods_Swift5AdMob.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,21 @@
 		1794EA82224E3BDB00A12574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1794EA85224E3BDB00A12574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1794EA87224E3BDB00A12574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1794EA8E224E3C9200A12574 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1794EA90224E3CBE00A12574 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1794EA92224E3CDA00A12574 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1794EA94224E3CEC00A12574 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		1794EA95224E3CEC00A12574 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		1794EA98224E3D4600A12574 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1794EA9A224E3D5700A12574 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1794EA9C224E3D6700A12574 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1794EA9E224E40EA00A12574 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		1794EAA0224E49A800A12574 /* InterSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterSViewController.swift; sourceTree = "<group>"; };
+		1794EAA2224E4F2200A12574 /* VideoAdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAdsViewController.swift; sourceTree = "<group>"; };
+		1794EAA4224E557F00A12574 /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
+		18A89D9D7F468BEA07947AC6 /* Pods_Swift5AdMob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5AdMob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED8E285674E263D6901965A /* Pods-Swift5AdMob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5AdMob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift5AdMob/Pods-Swift5AdMob.debug.xcconfig"; sourceTree = "<group>"; };
+		92A8EE1A326A2DDB8DB80B51 /* Pods-Swift5AdMob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5AdMob.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift5AdMob/Pods-Swift5AdMob.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1794EA9F224E40EA00A12574 /* GoogleMobileAds.framework in Frameworks */,
+				1794EA9D224E3D6700A12574 /* AdSupport.framework in Frameworks */,
+				1794EA9B224E3D5700A12574 /* AudioToolbox.framework in Frameworks */,
+				1794EA99224E3D4600A12574 /* AVFoundation.framework in Frameworks */,
+				1794EA96224E3CEC00A12574 /* EventKitUI.framework in Frameworks */,
+				1794EA97224E3CEC00A12574 /* EventKit.framework in Frameworks */,
+				1794EA93224E3CDA00A12574 /* MessageUI.framework in Frameworks */,
+				1794EA91224E3CBE00A12574 /* StoreKit.framework in Frameworks */,
+				1794EA8F224E3C9200A12574 /* SystemConfiguration.framework in Frameworks */,
+				AE8BDA2BC915058DDE32DE05 /* Pods_Swift5AdMob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +78,8 @@
 			children = (
 				1794EA7A224E3BD800A12574 /* Swift5AdMob */,
 				1794EA79224E3BD800A12574 /* Products */,
+				1794EA8D224E3C9100A12574 /* Frameworks */,
+				F51EEA0DB3AFFDB8AD9FECF1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +95,42 @@
 			isa = PBXGroup;
 			children = (
 				1794EA7B224E3BD800A12574 /* AppDelegate.swift */,
-				1794EA7D224E3BD800A12574 /* ViewController.swift */,
 				1794EA7F224E3BD800A12574 /* Main.storyboard */,
+				1794EA7D224E3BD800A12574 /* ViewController.swift */,
+				1794EAA2224E4F2200A12574 /* VideoAdsViewController.swift */,
+				1794EAA4224E557F00A12574 /* startViewController.swift */,
+				1794EAA0224E49A800A12574 /* InterSViewController.swift */,
 				1794EA82224E3BDB00A12574 /* Assets.xcassets */,
 				1794EA84224E3BDB00A12574 /* LaunchScreen.storyboard */,
 				1794EA87224E3BDB00A12574 /* Info.plist */,
+				1794EA9E224E40EA00A12574 /* GoogleMobileAds.framework */,
 			);
 			path = Swift5AdMob;
+			sourceTree = "<group>";
+		};
+		1794EA8D224E3C9100A12574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1794EA9C224E3D6700A12574 /* AdSupport.framework */,
+				1794EA9A224E3D5700A12574 /* AudioToolbox.framework */,
+				1794EA98224E3D4600A12574 /* AVFoundation.framework */,
+				1794EA95224E3CEC00A12574 /* EventKit.framework */,
+				1794EA94224E3CEC00A12574 /* EventKitUI.framework */,
+				1794EA92224E3CDA00A12574 /* MessageUI.framework */,
+				1794EA90224E3CBE00A12574 /* StoreKit.framework */,
+				1794EA8E224E3C9200A12574 /* SystemConfiguration.framework */,
+				18A89D9D7F468BEA07947AC6 /* Pods_Swift5AdMob.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F51EEA0DB3AFFDB8AD9FECF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8E285674E263D6901965A /* Pods-Swift5AdMob.debug.xcconfig */,
+				92A8EE1A326A2DDB8DB80B51 /* Pods-Swift5AdMob.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1794EA8A224E3BDB00A12574 /* Build configuration list for PBXNativeTarget "Swift5AdMob" */;
 			buildPhases = (
+				9954A723C13C625B7631890A /* [CP] Check Pods Manifest.lock */,
 				1794EA74224E3BD800A12574 /* Sources */,
 				1794EA75224E3BD800A12574 /* Frameworks */,
 				1794EA76224E3BD800A12574 /* Resources */,
+				B5DA310AAABDB9C24C73AFE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +201,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9954A723C13C625B7631890A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5AdMob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5DA310AAABDB9C24C73AFE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swift5AdMob/Pods-Swift5AdMob-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift5AdMob/Pods-Swift5AdMob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1794EA74224E3BD800A12574 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1794EA7E224E3BD800A12574 /* ViewController.swift in Sources */,
+				1794EAA5224E557F00A12574 /* startViewController.swift in Sources */,
+				1794EAA3224E4F2200A12574 /* VideoAdsViewController.swift in Sources */,
+				1794EAA1224E49A800A12574 /* InterSViewController.swift in Sources */,
 				1794EA7C224E3BD800A12574 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,11 +403,17 @@
 		};
 		1794EA8B224E3BDB00A12574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED8E285674E263D6901965A /* Pods-Swift5AdMob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N8KFLUW49V;
+				DEVELOPMENT_TEAM = Q4T5SUS353;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swift5AdMob",
+				);
 				INFOPLIST_FILE = Swift5AdMob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +427,17 @@
 		};
 		1794EA8C224E3BDB00A12574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A8EE1A326A2DDB8DB80B51 /* Pods-Swift5AdMob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N8KFLUW49V;
+				DEVELOPMENT_TEAM = Q4T5SUS353;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swift5AdMob",
+				);
 				INFOPLIST_FILE = Swift5AdMob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
